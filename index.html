@@ -6,13 +6,15 @@
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" media="screen" href="css/all.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/desktopstyle.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/mobilestyle.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="faicon/css/all.min.css" />
 </head>
 <body>
 	<div class="wallpaper">
 		<!-- HEADER -->
 		<header>
-			<div class="header_center">
+			<div class="center">
 				<div class="container">
 					<div class="logo">
 						<img src="images/logo.png">
@@ -25,151 +27,234 @@
 							<i class="fas fa-bars"></i>
 						</div>
 					</div>
+					<nav class="mainmenu">
+						<ul>
+							<li>
+								<a href="#">menu 1</a>
+							</li>
+							<li>
+								<a href="#">menu 2</a>
+							</li>
+							<li>
+								<a href="#">menu 3</a>
+							</li>
+							<li>
+								<a href="#">menu 4</a>
+							</li>
+							<li>
+								<a href="#">menu 5</a>
+							</li>
+							<li>
+								<a href="#">menu 6</a>
+							</li>
+							<li>
+								<a href="#">menu 7</a>
+							</li>
+							<li>
+								<a href="#">menu 8</a>
+							</li>
+							<li>
+								<a href="#">menu 9</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</header>
 		<div class="content">
 			<!-- slide -->
-			<section class="slide">
+			<div class="slide">
 				<ul>
 					<li>
 						<a href="#"><img src="images/slide/slide1.png"></a>
 					</li>
 				</ul>
-			</section>
+			</div>
 			<!-- End slide -->
 			<!-- categories -->
-			<section class="categories">
-				<div class="section_head">
-					<div class="section_title">dịch vụ</div>
-					<div class="group">
-						<ul class="group-title">
-							<li class="active" itemstart>Cá nhân
-							</li>
-							<li>Doanh nghiệp</li>
-							<li itemend>Khác</li>
-						</ul>
+			<section class="services">
+				<div class="head">
+					<div class="title borderLeft">
+						dịch vụ
 					</div>
+					<ul class="group_title">
+						<li class="active" itemstart>Cá nhân
+						</li>
+						<li>Doanh nghiệp</li>
+						<li itemend>Khác</li>
+					</ul>
 				</div>
-				<div class="section_body">
+				<div class="body">
 					<div class="container">
-						<div class="group_body">
+						<div class="personal">
+							<div class="title">cá nhân</div>
 							<ul>
-								<li>
-									<a href="#" itemstart>danh muc 1</a>
-								</li>
-								<li noboder>
-									<a href="#" itemend>danh muc 2</a>
-								</li>
+								<li><a href="#" itemstart>danh muc 1</a></li>
+								<li><a href="#">danh muc 2</a></li>
+								<li><a href="#">danh muc 3</a></li>
+								<li><a href="#">danh muc 4</a></li>
+								<li><a href="#">danh muc 5</a></li>
+								<li><a href="#">danh muc 6</a></li>
+								<li><a href="#">danh muc 7</a></li>
+								<li noboder><a href="#" itemend>danh muc 8</a></li>
 							</ul>
+							<div class="pagination">
+								<ul>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>
+										<a href="#">Tất cả</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="enterprise">
+							<div class="title">doanh nghiệp</div>
+							<ul>
+								<li><a href="#" itemstart>danh muc 1</a></li>
+								<li><a href="#">danh muc 2</a></li>
+								<li><a href="#">danh muc 3</a></li>
+								<li><a href="#">danh muc 4</a></li>
+								<li><a href="#">danh muc 5</a></li>
+								<li><a href="#">danh muc 6</a></li>
+								<li><a href="#">danh muc 7</a></li>
+								<li noboder><a href="#" itemend>danh muc 8</a></li>
+							</ul>
+							<div class="pagination">
+								<ul>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>
+										<a href="#">Tất cả</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="other">
+							<div class="title">khác</div>
+							<ul>
+								<li><a href="#" itemstart>danh muc 1</a></li>
+								<li><a href="#">danh muc 2</a></li>
+								<li><a href="#">danh muc 3</a></li>
+								<li><a href="#">danh muc 4</a></li>
+								<li><a href="#">danh muc 5</a></li>
+								<li><a href="#">danh muc 6</a></li>
+								<li><a href="#">danh muc 7</a></li>
+								<li noboder><a href="#" itemend>danh muc 8</a></li>
+							</ul>
+							<div class="pagination">
+								<ul>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>
+										<a href="#">Tất cả</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- end categories -->
 			<!-- banner -->
-			<section class="banner">
+			<div class="banner">
 				<img src="images/banner/banner1.png" />
-			</section>
+			</div>
 			<!-- end banner -->
 			<!-- post -->
-			<section class="post">
-				<div class="post_news">
-					<div class="section_head">
-						<div class="section_title">
+			<div class="post">
+				<section class="post_news">
+					<div class="head">
+						<div class="title borderTop">
 						bài viết mới</div>
 					</div>
-					<div class="section_body">
+					<div class="body">
 						<div class="container">
-							<article>
-								<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
-									<div class="article_img">
-										<img src="images/post/1.jpg" alt="img Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh"
-										/>
-									</div>
-									<div class="article_text">
-										Thủ tục xin giấy phép
-									</div>
-								</a>
-							</article>
-							<article>
-								<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
-									<div class="article_img">
-										<img src="images/post/2.jpg" alt="img Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh"
-										/>
-									</div>
-									<div class="article_text">
-										Thủ tục xin giấy phép VSATTP cho các cơ sở ép VSATTP cho các cơ sở ép VSATTP cho các
-									</div>
-								</a>
-							</article>
-							<article noboder>
-								<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
-									<div class="article_img">
+							<ul>
+								<li>
+									<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
 										<img src="images/post/3.jpg" alt="img Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh"
 										/>
-									</div>
-									<div class="article_text">
-										Thủ tục xin giấy phép VSATTP cho các cơ sở ép VSATTP cho các cơ sở ép VSATTP cho các
-									</div>
-								</a>
-							</article>
+										<span>
+											Thủ tục xin giấy phép VSATTP cho các cơ sở ép VSATTP cho các cơ sở ép VSATTP cho các
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
+										<img src="images/post/3.jpg" alt="img Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh"
+										/>
+										<span>
+											Thủ tục xin giấy phép VSATTP cho các cơ sở ép VSATTP cho các cơ sở ép VSATTP cho các
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
+										<img src="images/post/3.jpg" alt="img Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh"
+										/>
+										<span>
+											Thủ tục xin giấy phép VSATTP cho các cơ sở ép VSATTP cho các cơ sở ép VSATTP cho các ở ép VSATTP cho các
+										</span>
+									</a>
+								</li>
+							</ul>
+							<a href="#" class="viewmore">xem thêm</a>
 						</div>
 					</div>
-				</div>
-				<div class="post_laws">
-					<div class="section_head">
-						<div class="section_title">
+				</section>
+				<section class="post_laws">
+					<div class="head">
+						<div class="title borderTop">
 							tin pháp luật
 						</div>
 					</div>
-					<div class="section_body">
+					<div class="body">
 						<div class="container">
-							<article>
-								<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
-									<div class="article_img">
-										<img src="images/post/1.jpg" alt="img Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh"
-										/>
-									</div>
-									<div class="article_text">
-										Thủ tục xin giấy phép
-									</div>
-								</a>
-							</article>
-
-							<article>
-								<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
-									<div class="article_img">
-										<img src="images/post/2.jpg" alt="img Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh"
-										/>
-									</div>
-									<div class="article_text">
-										Thủ tục xin giấy phép VSATTP cho các cơ sở ép VSATTP cho các cơ sở ép VSATTP cho các
-									</div>
-								</a>
-							</article>
-							<article noboder>
-								<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
-									<div class="article_img">
+							<ul>
+								<li>
+									<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
 										<img src="images/post/3.jpg" alt="img Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh"
 										/>
-									</div>
-									<div class="article_text">
-										Thủ tục xin giấy phép VSATTP cho các cơ sở ép VSATTP cho các cơ sở ép VSATTP cho các
-									</div>
-								</a>
-							</article>
+										<span>
+											Thủ tục xin giấy phép VSATTP cho các cơ sở ép VSATTP cho các cơ sở ép VSATTP cho các
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
+										<img src="images/post/3.jpg" alt="img Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh"
+										/>
+										<span>
+											Thủ tục xin giấy phép VSATTP cho các cơ sở ép VSATTP cho các cơ sở ép VSATTP cho các
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" title="Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh">
+										<img src="images/post/3.jpg" alt="img Thủ tục xin giấy phép VSATTP cho các cơ sở, doanh nghiệp kinh doanh"
+										/>
+										<span>
+											Thủ tục xin giấy phép VSATTP cho các cơ sở ép VSATTP cho các cơ sở ép VSATTP cho các
+										</span>
+									</a>
+								</li>
+							</ul>
+							<a href="#" class="viewmore">xem thêm</a>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+			</div>
 			<!-- end post -->
 			<!-- about -->
 			<section class="about">
-				<div class="section_head">
+				<div class="head">
 					<div class="title center">Về chúng tôi</div>
 				</div>
-				<div class="section_body">
+				<div class="body">
 					<div class="container">
 						Luật Việt kể từ khi thành lập vào năm 1999, mục tiêu trọng tâm mà Luật Việt luôn hướng tới chính là “Thành công của Khách hàng”. Luật Việt đã nhanh chóng phát triển với phương châm lấy khách hàng làm trọng tâm và chúng tôi sẽ không chỉ đơn thuần là luật sư tư vấn pháp luật mà sẽ đóng vai trò một đối tác pháp lý đáng tin cậy của Khách hàng. Với đội ngũ luật sư và nhân viên có trình độ và nhiều kinh nghiệm.
 					</div>
@@ -178,54 +263,85 @@
 			</section>
 			<!-- end about -->
 			<!-- banner -->
-			<section class="banner">
+			<div class="banner">
 				<img src="images/banner/banner2.png" />
-			</section>
+			</div>
 			<!-- end banner -->
 			<!-- partner & feedback -->
-			<section>
-				<div class="partner">
-					<div class="section_head">
-						<div class="section_title">
+			<section class="partner">
+				<div class="head">
+					<div class="title leftLine">
+						<span>
 							CÁC ĐỐI TÁC
-						</div>
-					</div>
-					<div class="section_body">
-						<div class="item">
-							<img src="images/content/partner/partner1.png">
-						</div>
-						<div class="item">
-							<img src="images/content/partner/partner2.png">
-						</div>
-						<div class="item">
-							<img src="images/content/partner/partner3.png">
-						</div>
-						<div class="item">
-							<img src="images/content/partner/partner4.png">
-						</div>
-						<div class="item">
-							<img src="images/content/partner/partner5.png">
-						</div>
+						</span>
+						
 					</div>
 				</div>
-				<div class="feedback">
-					<div class="section_head">
-						<div class="section_title">
-							phản hồi
-						</div>
+				<div class="body">
+					<div class="item">
+						<img src="images/content/partner/partner1.png">
 					</div>
-					<div class="section_body">
-						<div class="container">
-							Luật Việt kể từ khi thành lập vào năm 1999, mục tiêu trọng tâm mà Luật Việt luôn hướng tới chính là “Thành công của Khách hàng”. Luật Việt đã nhanh chóng phát triển với phương châm lấy khách hàng làm trọng tâm và chúng tôi sẽ không chỉ đơn thuần là luật sư tư vấn pháp luật mà sẽ đóng vai trò một đối tác pháp lý đáng tin cậy của Khách hàng. Với đội ngũ luật sư và nhân viên có trình độ và nhiều kinh nghiệm
-						</div>
+					<div class="item">
+						<img src="images/content/partner/partner2.png">
+					</div>
+					<div class="item">
+						<img src="images/content/partner/partner3.png">
+					</div>
+					<div class="item">
+						<img src="images/content/partner/partner4.png">
+					</div>
+					<div class="item">
+						<img src="images/content/partner/partner5.png">
+					</div>
+				</div>
+			</section>
+			<section class="feedback">
+				<div class="head">
+					<div class="title leftLine">
+						<span>phản hồi</span>
+					</div>
+				</div>
+				<div class="body">
+					<div class="container">
+						Luật Việt kể từ khi thành lập vào năm 1999, mục tiêu trọng tâm mà Luật Việt luôn hướng tới chính là “Thành công của Khách hàng”. Luật Việt đã nhanh chóng phát triển với phương châm lấy khách hàng làm trọng tâm và chúng tôi sẽ không chỉ đơn thuần là luật sư tư vấn pháp luật mà sẽ đóng vai trò một đối tác pháp lý đáng tin cậy của Khách hàng. Với đội ngũ luật sư và nhân viên có trình độ và nhiều kinh nghiệm
 					</div>
 				</div>
 			</section>
 		</div>
 		<footer>
-			<div class="footer-content">
+			<div class="center">
 				<div class="container">
-					<!-- <div class="menu-service">
+					<div class="head">Liên hệ</div>
+					<div class="body">
+						<img src="images/content/hotline.png"/>
+						<div class="phone">
+							<span>
+								Hotline: <b style="color: white;font-size: 16px;">0987 654 321</b>
+							</span>
+							<span>
+								Support: <b style="color: white;font-size: 16px;">01234 567 890</b>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="social">
+						<a href="#">
+							<img src="images/content/social/fb.png"> 
+							<span>Facebook</span>
+						</a>
+						<a href="#">
+							<img src="images/content/social/gg.png"> <span>Google</span>
+						</a>
+
+						<a href="#">
+							<img src="images/content/social/tw.png"> <span>Twitter</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="container">
+					<div class="menu-service">
 						<div class="menu-title">Dịch vụ</div>
 						<ul>
 							<li><a href="#">menu1</a></li>
@@ -244,49 +360,16 @@
 							<li><a href="#">menu1</a></li>
 							<li><a href="#">menu1</a></li>
 						</ul>
-					</div> -->
-					<div class="phone">
-						<div class="menu-title">Liên hệ</div>
-						<div class="phone-content">
-							<table>
-								<tr>
-									<td rowspan="2" style="padding-right: 6px"><img src="images/content/hotline.png"
-										/>
-									</td>
-									<td>Hotline: <b style="font-size: 16px; color: white">0987 654 321</b>
-									</td>
-								</tr>
-								<tr>
-									<td>Support: <b style="font-size: 16px; color: white">01234 567 890</b></td>
-								</tr>
-							</table>
-						</div>
 					</div>
-					<div class="contact-more">
-						<a href="#">
-							<img src="images/content/social/fb.png"> Facebook
-						</a>
-						<a href="#">
-							<img src="images/content/social/gg.png"> Google
-						</a>
-						
-						<a href="#">
-							<img src="images/content/social/tw.png"> Twitter
-						</a>
-						
-						<a href="#">
-							<img src="images/content/social/rs.png"> RSS
-						</a>
+					
+				</div> -->
+				<div class="copyright">
+					<div class="container">
+						© 2017
+						<a href="http://google.com/vi">Link</a> - Advocates &amp; Solicitors. All rights reserved. 
 					</div>
 				</div>
-			</div>
-			<div class="footer-copyright">
-				<div class="container">
-					© 2017
-					<a href="http://google.com/vi">Link</a> - Advocates &amp; Solicitors. All rights reserved. 
-				</div>
-			</div>
-		</footer>
-	</div>
-</body>
-</html>
+			</footer>
+		</div>
+	</body>
+	</html>

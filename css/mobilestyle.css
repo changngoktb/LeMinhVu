@@ -1,0 +1,39 @@
+@media only screen and (max-width: 767px) {
+	.container{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	header>.center nav.mainmenu{
+		position: absolute;
+		right: 0;
+		top: 50px;
+		display: flex;
+		flex-direction: column;
+		background-color: #002b60;
+		width: auto;
+		min-width: 70%;
+		visibility: hidden;
+	}
+	header>.center .logo{
+		max-height: 40px;
+		max-width: 150px;
+	}
+	header>.center nav.mainmenu ul li{
+		border-bottom: 1px dotted #003a82;
+	}
+	header>.center nav.mainmenu ul li a{
+		padding: 5px 10px;
+		display: block;
+		color: #e2e2e2;
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.content{
+		padding-top: 50px;
+	}
+
+	section .enterprise,section .other{
+		display: none;
+	}
+}
