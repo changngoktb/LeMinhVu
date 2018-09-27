@@ -1,281 +1,239 @@
 @media only screen and (min-width: 1200px) {
-	header{
-}
-header>.center{
-	background-color: #00316b;
-	position: relative;
-	width: 100%;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-header>.center>.container{
-	display: flex;
-	width: 80%;
-	margin: auto;
-	flex-direction: row;
-	justify-content: space-between;
-}
-header>.center .logo{
-	max-height: 50px;
-	max-width: 150px;
-}
-header>.center .logo img{
-	height: 100%;
-	display: block;
-}
-header>.center .menu_mobile{
-	display: none;
-}
+	header>.center{
+		position: relative;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
 
-header>.center nav.mainmenu{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-header>.center nav.mainmenu ul{
-}
-header>.center nav.mainmenu ul li{
-	float: left;
-}
-
-header>.center nav.mainmenu ul li a{
-	padding:5px 15px;
-	display: inline-block;
-	color: #e2e2e2;
-	text-align: center;
-}
+	header>.center .logo{
+		max-height: 50px;
+		max-width: 150px;
+	}
 
 
-.content .slide{
-	margin-top: 15px;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-}
-.content .slide ul{
-}
-.content .slide ul li{
-	
-}
-.content .slide ul li a{
-	display: block;
-}
-.content .slide ul li a img{
-	width: 100%;
-	height: auto;
-	display: block;
-}
-/*end slide*/
+	header>.center .menu_mobile{
+		display: none;
+	}
+
+	header>.center nav.mainmenu{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	header>.center nav.mainmenu ul{
+	}
+	header>.center nav.mainmenu ul li{
+		float: left;
+	}
+
+	header>.center nav.mainmenu ul li a{
+		padding:5px 15px;
+		display: inline-block;
+		color: #e2e2e2;
+		text-align: center;
+	}
+
+	/*slide*/
+	.content .slide{
+		margin-top: 15px;
+	}
+	/*end slide*/
 
 
+	/*section*/
+
+	section{
+	}
+
+	section .head>.title{
+		padding:10px 15px;
+	}
+
+	section .head>ul.group_title{
+		display: none;
+	}
 
 
-/*section*/
+	section .body{
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
+	section>.body>.container{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 
-section{
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-}
-section>.head{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	position: relative;
-	align-items: center;
-	background-color: #f6f8ff;
-}
-section>.head>.title{
-	text-transform: uppercase;
-	font-weight: 500;
-	padding:7px 10px;
-	color: #00408d;
-
-}
-
-section>.head>ul.group_title{
-	display: none;
-}
-
-
-section>.body{
-	padding-top: 5px;
-	padding-bottom: 10px;
-}
-section>.body>.container{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-
-}
-section>.body .personal,
-section>.body .other
-{
-	width: 33%;
-	padding: 5px 15px;
-	background-color: #f6f8ff;
-}
-section>.body .enterprise{
-	width: 34%;
-	padding: 5px 15px;
-}
-section>.body .personal .title,
-section>.body .other .title,
-section>.body .enterprise .title
-{
-	font-weight: 500;
-	text-transform: uppercase;
-	border-bottom: 1px solid #00408d;
-	padding-bottom: 5px;
-	color: #00408d;
-}
+	}
+	section>.body .personal,
+	section>.body .other
+	{
+		width: 33%;
+		padding: 5px 15px;
+		background-color: #f6f8ff;
+	}
+	section>.body .enterprise{
+		width: 34%;
+		padding: 5px 15px;
+	}
+	section>.body .personal .title,
+	section>.body .other .title,
+	section>.body .enterprise .title
+	{
+		font-weight: 500;
+		text-transform: uppercase;
+		border-bottom: 1px solid #00408d;
+		padding-bottom: 5px;
+		color: #00408d;
+	}
 
 
-section>.body ul{
+	section>.body ul{
 
-}
-section>.body ul>li
-{
-	border-bottom: 1px solid rgba(220,222,227,.7);
-}
-section>.body ul>li>a
-{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	margin: 5px 0 5px 0;
-	color: #333;
-}
-section>.body ul.personal>li>a::before,
-section>.body ul.enterprise>li>a::before,
-section>.body ul.other>li>a::before
-{
-	content: "› ";
-	color: #999;
-	padding-right: 5px;
-}
-section>.body ul>li>a:hover,
-section>.body ul>li>a:hover::before
-{
-	color: #ff6a00;
-	text-decoration: none;
-}
-section>.body ul>li>a img{
-	width: 50px;
-	border-radius: 3px;
-}
-section>.body ul>li>a span{
-	padding-left: 5px;	
-}
+	}
+	section>.body ul>li
+	{
+		border-bottom: 1px solid rgba(220,222,227,.7);
+	}
+	section>.body ul>li>a
+	{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin: 5px 0 5px 0;
+		color: #333;
+	}
+	section>.body ul.personal>li>a::before,
+	section>.body ul.enterprise>li>a::before,
+	section>.body ul.other>li>a::before
+	{
+		content: "› ";
+		color: #999;
+		padding-right: 5px;
+	}
+	section>.body ul>li>a:hover,
+	section>.body ul>li>a:hover::before
+	{
+		color: #ff6a00;
+		text-decoration: none;
+	}
+	section>.body ul>li>a img{
+		width: 50px;
+		border-radius: 3px;
+	}
+	section>.body ul>li>a span{
+		padding-left: 5px;	
+	}
 
-section>.body  a.viewmore{
-	display: block;
-	padding: 5px;
-	margin-top: 5px;
-	background-color: #efefef;
-	text-align: center;
-	color: #990700;
-	text-decoration: none;
-}
-
-
-section>.body .pagination{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-section>.body .pagination li{
-	float: left;
-	padding: 2px 7px;
-	margin: 2px;
-	background-color: #efefef;
-}
-section>.body .pagination li a{
-	display: block;
-	margin: 0;
-}
+	section>.body  a.viewmore{
+		display: block;
+		padding: 5px;
+		margin-top: 5px;
+		background-color: #efefef;
+		text-align: center;
+		color: #990700;
+		text-decoration: none;
+	}
 
 
-.banner{
-	margin-bottom: 15px;
-	margin-top: 5px;
-}
-.banner img{
-	width: 80%;
-	height: auto;
-	margin: auto;
-}
+	section>.body .pagination{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
 
-section.about{
-	background-color: #f6f8ff;
-}
-
-section.partner .item{
-	width: 25%;
-	float: left;
-	padding: 10px;
-	box-sizing: border-box;
-}
-section.partner .item img{
-	width: 100%;
-	border:1px solid #f1f1f1;
-}
-
-section.partner .body{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-.post{
-	display: flex;
-	flex-direction: row;
-	width: 80%;
-	margin:auto;
-}
-.post section.post_news
-{
-	width: 66%;
-}
-
-.post section.post_laws
-{
-	width: 34%;
-}
-.post section.post_news .body .container{
-	display: flex;
-	flex-direction: column;
-}
-.post section.post_news .body ul{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
-}
-.post section.post_news .body ul li{
-	width: 50%;
-}
+	section>.body .pagination li{
+		float: left;
+		padding: 2px 7px;
+		margin: 2px;
+		background-color: #efefef;
+	}
+	section>.body .pagination li a{
+		display: block;
+		margin: 0;
+	}
 
 
-footer{
-}
-footer>.center{
-	background-color: #292b37;
-	color: #e2e2e2;
-	padding-top: 10px;
-	display: flex;
-	flex-direction: column;
-}
-footer>.center>.container{
-	display: flex;
-	flex-direction: column;
-}
-footer .head{
-	text-transform: uppercase;
-	border-bottom: 1px dotted #444;
-	padding-bottom: 10px;
-}
+	.banner{
+		margin-bottom: 15px;
+		margin-top: 5px;
+	}
+	.banner img{
+		width: 80%;
+		height: auto;
+		margin: auto;
+	}
+
+	section.about{
+		background-color: #f6f8ff;
+	}
+
+	section.partner .item{
+		width: 25%;
+		float: left;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	section.partner .item img{
+		width: 100%;
+		border:1px solid #f1f1f1;
+	}
+
+	section.partner .body{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.post{
+		display: flex;
+		flex-direction: row;
+		width: 80%;
+		margin:auto;
+	}
+	.post section.post_news
+	{
+		width: 66%;
+		padding-right: 15px;
+	}
+
+	.post section.post_laws
+	{
+		width: 34%;
+		padding-left: 15px;
+	}
+	.post section.post_news .body .container{
+		display: flex;
+		flex-direction: column;
+	}
+	.post section.post_news .body ul{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.post section.post_news .body ul li{
+		width: 50%;
+	}
+
+
+	footer{
+	}
+	footer>.center{
+		background-color: #292b37;
+		color: #e2e2e2;
+		padding-top: 10px;
+		display: flex;
+		flex-direction: column;
+	}
+	footer>.center>.container{
+		display: flex;
+		flex-direction: column;
+	}
+	footer .head{
+		text-transform: uppercase;
+		border-bottom: 1px dotted #444;
+		padding-bottom: 10px;
+	}
 /*
 .menu-service ul, .menu-news ul{
     list-style: none;

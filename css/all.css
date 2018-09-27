@@ -24,7 +24,12 @@ ul{
 a{
 	text-decoration: none;
 }
-
+.container{
+	width: 80%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+}
 
 /*end define*/
 body{
@@ -38,7 +43,7 @@ header{
 }
 
 header>.center{
-	background-color: #00408d;
+	background-color: #00316b;
 	position: fixed;
 	width: 100%;
 	z-index: 10;
@@ -129,7 +134,7 @@ header>.center nav.mainmenu ul{
 
 section{
 }
-section>.head{
+section .head{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -137,16 +142,16 @@ section>.head{
 	align-items: center;
 	background-color: #f6f8ff;
 }
-section>.head>.title{
+section .head>.title{
 	text-transform: uppercase;
 	font-weight: 500;
 	padding:7px 10px;
 	color: #00408d;
-
 }
 
 
-section>.head>.title.borderLeft::before{
+
+section .head>.title.borderLeft::before{
 	content: '';
 	width: 2px;
 	height: calc(100% - 14px);
@@ -155,24 +160,24 @@ section>.head>.title.borderLeft::before{
 	top: 7px;
 	background-color: #00408d;
 }
-section>.head>.title.borderTop{
+section .head>.title.borderTop{
 	width: 100%;
 	border-top: 2px solid #990700;
 }
-section>.head>.title.center{
+section .head>.title.center{
 	text-align: center;
 	width: 100%;
 }
-section>.head>.title.leftDotted{
+section .head>.title.leftDotted{
 	width: 100%;
 }
-section>.head>.title.leftDotted>span{
+section .head>.title.leftDotted>span{
 	background-color: #f6f8ff;
 	z-index: 2;
 	position: relative;
 	padding-right: 10px;
 }
-section>.head>.title.leftDotted::after{
+section .head>.title.leftDotted::after{
 	content: '';
 	width: calc(100% - 22px);
 	border:1px dotted #00408d;
@@ -181,17 +186,17 @@ section>.head>.title.leftDotted::after{
 	top: 50%;
 }
 
-section>.head>.title.leftLine
+section .head>.title.leftLine
 {
 	width: 100%;
 }
-section>.head>.title.leftLine>span{
+section .head>.title.leftLine>span{
 	background-color: #f6f8ff;
 	z-index: 2;
 	position: relative;
 	padding-right: 10px;
 }
-section>.head>.title.leftLine::after{
+section .head>.title.leftLine::after{
 	content: '';
 	height: 2px;
 	width: calc(100% - 20px);
@@ -204,13 +209,13 @@ section>.head>.title.leftLine::after{
 
 
 
-section>.head>ul.group_title{
+section .head>ul.group_title{
 	padding: 0 10px;
 	font-size: 13px;
 	float: right;
 }
 
-section>.head>ul.group_title li{
+section .head>ul.group_title li{
 	float: left;
 	padding:0 5px;
 	text-transform: uppercase;
@@ -218,13 +223,14 @@ section>.head>ul.group_title li{
 	border-right: 1px solid #e2e2e2;
 }
 
-section>.head>ul.group_title li:hover,
-section>.head>ul.group_title li.active{
+section .head>ul.group_title li:hover,
+section .head>ul.group_title li.active{
 	color: #f60;
 }
 
 
-section>.body{
+
+section .body{
 	padding-top: 5px;
 	padding-bottom: 10px;
 }

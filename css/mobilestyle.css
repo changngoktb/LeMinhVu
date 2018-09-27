@@ -1,8 +1,4 @@
 @media only screen and (max-width: 767px) {
-	.container{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
 	header>.center nav.mainmenu{
 		position: absolute;
 		right: 0;
