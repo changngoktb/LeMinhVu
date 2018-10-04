@@ -1,35 +1,169 @@
 @media only screen and (max-width: 767px) {
-	header>.center nav.mainmenu{
-		position: absolute;
-		right: 0;
-		top: 50px;
-		display: flex;
-		flex-direction: column;
-		background-color: #002b60;
-		width: auto;
-		min-width: 70%;
-		visibility: hidden;
+
+	header>.top{
+		display: none;
+	}
+	header>.center{
+		position: fixed;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		width: 100%;
+		z-index: 10;
 	}
 	header>.center .logo{
 		max-height: 40px;
 		max-width: 150px;
 	}
+
+
+	header>.center .menu_mobile{
+		display: flex;
+		flex-direction: row;
+	}
+	header>.center .menu_mobile i{
+		color: white;
+		font-size: 14px;
+		line-height: 26px;
+	}
+	header>.center .menu_mobile .search,
+	header>.center .menu_mobile .menu_collapse{
+		height: 100%;
+		padding: 7px 10px;
+		box-sizing: border-box;
+		vertical-align: middle;
+	}
+	header>.center .menu_mobile .menu_collapse{
+		border-left: 1px solid #0052b8;
+	}
+
+	header>.center nav.mainmenu{
+		position: absolute;
+		right: 0;
+		top: 50px;
+		flex-direction: column;
+		background-color: #002b60;
+		width: auto;
+		min-width: 70%;
+		display: none;
+	}
+	
 	header>.center nav.mainmenu ul li{
 		border-bottom: 1px dotted #003a82;
 	}
 	header>.center nav.mainmenu ul li a{
-		padding: 5px 10px;
+		padding-left: 10px;
+		padding-right: 10px;
 		display: block;
-		color: #e2e2e2;
-		text-align: center;
 		margin-top: 5px;
 		margin-bottom: 5px;
 	}
+
 	.content{
 		padding-top: 50px;
 	}
+	.content .slide{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
 
-	section .enterprise,section .other{
+	section .head>.title{
+		padding:8px 10px;
+	}
+
+
+	section .head>ul.group_title{
+		padding: 0 10px;
+		font-size: 13px;
+		float: right;
+	}
+
+	section .head>ul.group_title li{
+		float: left;
+		padding:0 5px;
+		text-transform: uppercase;
+		border-left: 1px solid #e2e2e2;
+		border-right: 1px solid #e2e2e2;
+	}
+
+	section .head>ul.group_title li:hover,
+	section .head>ul.group_title li.active{
+		color: #f60;
+	}
+
+
+	section .head>.title.leftDotted::after{
+		width: calc(100% - 22px);
+		left: 10px;
+	}
+	section .head>.title.leftLine::after{
+		width: calc(100% - 22px);
+		left: 10px;
+	}
+	section .body{
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	section .body ul>li>a{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	section.services .body{
+		flex-direction: column;
+	}
+
+	section.services .body .title
+	{
 		display: none;
+	}
+
+	section.services .enterprise, section.services .other{
+		display: none;
+	}
+
+	section.about{
+		margin-bottom: 10px;
+	}
+
+	.banner{
+		margin-bottom: 10px;
+	}
+
+	.post{
+		
+	}
+	.post>.container{
+
+		flex-direction: column;
+	}
+	.post section.news .body ul{
+		flex-direction: column;
+	}
+
+	.more>.container{
+		flex-direction: column;
+	}
+	section.partner .list_item{
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	section.partner .list_item .item{
+		padding: 0 10px 10px 10px;
+	}
+
+
+	
+	footer>.center{
+		padding-top: 10px;
+	}
+	
+	footer>.center>.container{
+		flex-direction: column;
+	}
+	footer>.center .menu_service, footer>.center .menu_more{
+		display: none;
+	}
+	.post_content>.container{
+		flex-direction: column;	
 	}
 }
